@@ -14,9 +14,13 @@ html{
     display: flex;
     justify-content: center;
 }
+.head img{
+    width: 100%;
+    height: 100%;
+}
 .head{
 text-align: center;
-padding-top: 10%;
+padding-top: 3%;
 padding-bottom: 5%;
     justify-content: center;
     display: flex;
@@ -26,29 +30,94 @@ padding-bottom: 5%;
 display: flex;
 justify-content: center;
 }
-
+input{
+    border: 0;
+ background-color: rgb(218, 232, 238);
+}
 
 .main{
     justify-content: space-between;
     display: flex;
     padding: 3%;
     background-color: hsl(0, 0%, 100%);
-    border-radius: 5%;
-    width: 750px;
+    border-radius: 25px;
+    width: 900px;
     min-height: 300px;
     height: auto;
     margin-bottom: 5%;
+    align-items: center;
 }
+
+
 .left{
     width: 40%;
     height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ }
+ .bill{
+    margin-bottom: 5%;
+ }
+ .tip{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-weight: bold;
+    margin-bottom: 20%;
+ }
+ .tip button{
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    background-color: hsl(183, 100%, 15%);
+    width: 30%;
+    height: 60%;
+    margin-top: 4%;
+ }
+ .tip input{
+    width: 29%;
+    height: 60%;
+    margin-top: 4%;
+    border-radius: 5px;
+ }
+ .input_box ::placeholder{
+    margin-right: 5%;
+    text-align: end;
+ }
+ .abc ::placeholder{
+    margin-right: 5%;
+    text-align: end;
+ }
+ .tip ::placeholder {
+   
+    font-size: 18px;
+    text-align: center;
+ }
+.bill{
+    width: 100%;
+    height: 100%;
+ }
+ .person{
+    width: 100%;
+    height: 100%;
+ }
+.rcenter{
+    width: 40%;
+    height: auto;
+    display:flex ;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
 }
 .right{
-    
     padding: 2%;
     background-color: hsl(183, 100%, 15%);
-    width: 40%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     border-radius: 5%;
     
 }
@@ -59,12 +128,18 @@ justify-content: center;
 .all1{
     padding: 5%;
 }
-.antek{
-    margin-top: -5%;
+.antek1{
+    
+    color: hsl(184, 14%, 56%);
+    font-size: 9px;
+}
+.antek2{
+    
     color: hsl(184, 14%, 56%);
     font-size: 9px;
 }
 .butt .button {
+    
     margin-top: 40%;
     width: 100%;
     height: 45%;
@@ -85,20 +160,43 @@ color: hsl(183, 100%, 15%);
     display: flex;
     justify-content: space-between;
  }
- .left{
-    width: 45%;
+ .divs{
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    color:hsl(172, 67%, 45%) ;
  }
- .tip{
+ .div1{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    font-weight: bold;
+    justify-content: space-between;
  }
- .tip input, button{
-    width: 30%;
-    margin: 2px;
+ .divs2{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color:hsl(172, 67%, 45%) ;
  }
+ .div2{
+    display: flex;
+    justify-content: space-between;
+ }
+ .div1 h3{
+    margin-bottom: -10%;
+ }
+ .div2 h3{
+    margin-bottom: -10%;
+ }
+ .input_box{
+    display: flex;
+    width: 100%;
+    height: auto;
+ }
+.abc{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.person{
+    width: 100%;
+    height: 150%;
+}

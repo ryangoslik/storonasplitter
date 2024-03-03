@@ -19,13 +19,15 @@
 </head>
 <body>
     <div class="po">
-      <div class="head"><img src="file:///C:/Users/Programista/Downloads/tip-calculator-app-main/tip-calculator-app-main/images/logo.svg" alt=""></div>
+      <div class="head"><img src="C:\Users\Laptop\Desktop\storonasplitter\tip-calculator-app-main\images\logo.svg" alt=""></div>
     </div>
     <div class="pos">
   <div class="main">
     <div class="left">
       Bill
-      <input type="text" class="bill">
+      <div class="input_box">
+      <input type="text" class="bill" placeholder="0">
+      </div>
 
       Select tip %
       <div class="tip">
@@ -34,21 +36,25 @@
         <button>15%</button>
         <button>25%</button>
         <button>50%</button>
-          <input type="text" class="number" placeholder="CUSTOM">
+          <input type="text" class="number" placeholder="Custom">
       </div>
-      Number of people
-      <input type="text" class="person">
-    </div>
-    <div class="right"><div class="all1"><div class="div1"><h3>Tip Amount</h3><p class="antek"> / person</p></div>
 
-    <div class="div2">
-      <h3>Total</h3> <p class="antek">/ person</p>
+      Number of people
+      <div class="abc">
+      <input type="text" class="person" placeholder="0">
+      </div>
+  </div>
+
+    <div class="rcenter"><div class="right"><div class="all1"><div class="div1"><div class="text1"><h3>Tip Amount</h3><p class="antek1"> / person</p></div><div class="divs" id="result1">0.00$</div></div>
+    <div class="div2"><div class="text2">
+      <h3>Total</h3> <p class="antek2">/ person</p></div>
+      <div class="divs2" id="result2">0.00$</div>
     </div>
-    <div class="butt">
+    <div class="butt">  
   <button class="button">RESET</button>
   </div>
   </div>
-  </div>
+  </div></div>
     </div>
 
 
@@ -56,5 +62,10 @@
   </div></div>
     
     </div>
+    <script>
+    
+
+
+    </script>
 </body>
 </html>
